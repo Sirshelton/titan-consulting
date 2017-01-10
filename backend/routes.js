@@ -20,6 +20,9 @@ module.exports = function() {
   });
 
   /* Your code here */
-
+  router.get('/loginpage', function(req,res){
+    return res.render('loginpage.html');
+  });
+  
   return router
 }();
