@@ -12,14 +12,19 @@ module.exports = function() {
   router.get('/trains', function(req,res){
     return res.render('trains.html');
   });
+  
+  
+  router.get('/semaj', function(req,res){
+    return res.render('semaj.html');
+  });
+  
 
-  router.get('/trains/data', function(req,res){
+  /*router.get('/trains/data', function(req,res){
     database.executeQuery("SELECT * FROM trains", function(results) {
       res.send(results);
     });
-  });
+  });*/
 
-  /* Your code here */
-
-  return router
+    /* Your code here */
+      return router
 }();
