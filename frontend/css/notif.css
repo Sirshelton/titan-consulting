@@ -12,24 +12,56 @@ p1 {
      font-size: 25px;
 }
 
+<<<<<<< HEAD
+h2 {
+    text-align: right;
+
+}
+
+p2{  
+    font-size: 25px;
+}
+
+h3{
+    text-align: right;
+=======
 p2 { 
      font-size: 25px;
+>>>>>>> 315ef494f76d062f635a4d2ed52d0f25952ff240
 }
 p3 { 
      font-size: 25px;
 }
+<<<<<<< HEAD
+
+h4{
+    text-align: right;
+=======
 p4 { 
      font-size: 25px;
+>>>>>>> 315ef494f76d062f635a4d2ed52d0f25952ff240
 }
 p5 { 
      font-size: 25px;
 }
 
+<<<<<<< HEAD
+h5 {
+    text-align: right;
+}
+=======
 label {
+>>>>>>> 315ef494f76d062f635a4d2ed52d0f25952ff240
 
     
 }
 
+<<<<<<< HEAD
+h6 {
+    text-align: right;
+}
+=======
+>>>>>>> 315ef494f76d062f635a4d2ed52d0f25952ff240
 
 .switch {
  position: relative;
