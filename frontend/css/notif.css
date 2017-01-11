@@ -13,7 +13,8 @@ p {  padding-top: 5%;
 }
 
 h2 {
-    padding-left: 90%;
+    text-align: right;
+
 }
 
 p2{  
@@ -21,7 +22,7 @@ p2{
 }
 
 h3{
-    padding-left: 90%;
+    text-align: right;
 }
 
 p3 {
@@ -29,7 +30,7 @@ p3 {
 }
 
 h4{
-    padding-left: 90%;
+    text-align: right;
 }
 
 p4 {
@@ -37,7 +38,7 @@ p4 {
 }
 
 h5 {
-    padding-left: 90%;
+    text-align: right;
 }
 
 p5{
@@ -45,7 +46,7 @@ p5{
 }
 
 h6 {
-    padding-left: 90%;
+    text-align: right;
 }
 
 .switch {
