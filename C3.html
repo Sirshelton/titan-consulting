@@ -1,0 +1,56 @@
+
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+
+<!--Theme-->
+<link href="http://cdn.wijmo.com/themes/aristo/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+
+<!--Wijmo Widgets CSS-->
+<link href="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.css" rel="stylesheet" type="text/css" />
+
+<!--Wijmo Widgets JavaScript-->
+<script src="http://cdn.wijmo.com/jquery.wijmo-open.all.3.20161.90.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.js" type="text/javascript"></script>
+<script src="http://cdn.wijmo.com/interop/wijmo.data.ajax.3.20161.90.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#textbox1").wijinputdate(
+        {
+            placeHolder:'Click for Dates',
+            dateFormat: 'yyyy/M/d',
+            pickers: {
+                list: [
+                    {label: '1980/4/8', value: new Date(1980, 3, 8)},
+                    {label: '2007/12/25', value: new Date(2007, 11, 25)},
+                    {label: 'today', value: new Date()}
+                ]
+            },
+            showTrigger: true
+        });
+    });
+</script>
+</head>
+<body>
+    <input type="text" id="textbox1" />
+    
+    <br><br>
+    
+    
+    
+    
+    
+    <ion-list show-delete="shouldShowDelete">
+  <ion-item>
+    <ion-delete-button class="ion-minus-circled"></ion-delete-button>
+    Hello, list item!
+  </ion-item>
+</ion-list>
+<ion-toggle ng-model="shouldShowDelete">
+  Show Delete?
+</ion-toggle>
+    
+</body>
+</HTML>
