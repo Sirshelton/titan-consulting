@@ -12,12 +12,20 @@ module.exports = function() {
   router.get('/trains', function(req,res){
     return res.render('trains.html');
   });
+   
+   router.get('/charlie', function(req,res){
+    return res.render('charlie.html');
+  });
+  
+  router.get('/C2.html', function(req,res){
+    return res.render('C2.html');
+  });
 
   router.get('/trains/data', function(req,res){
     database.executeQuery("SELECT * FROM trains", function(results) {
       res.send(results);
     });
-  });
+  });                                                                           
 
   /* Your code here */
 
