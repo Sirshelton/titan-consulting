@@ -8,45 +8,28 @@ h1 {
     font-size: 40px
 }
 
-p {  padding-top: 5%;
+p1 { 
      font-size: 25px;
 }
 
-h2 {
-    padding-left: 90%;
+p2 { 
+     font-size: 25px;
 }
-
-p2{  
-    font-size: 25px;
+p3 { 
+     font-size: 25px;
 }
-
-h3{
-    padding-left: 90%;
+p4 { 
+     font-size: 25px;
 }
-
-p3 {
-    font-size: 25px;
-}
-
-h4{
-    padding-left: 90%;
-}
-
-p4 {
+p5 { 
      font-size: 25px;
 }
 
-h5 {
-    padding-left: 90%;
+label {
+
+    
 }
 
-p5{
-     font-size: 25px;
-}
-
-h6 {
-    padding-left: 90%;
-}
 
 .switch {
  position: relative;
