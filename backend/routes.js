@@ -9,6 +9,11 @@ module.exports = function() {
     return res.render('helloworld.html');
   });
 
+router.get('/omar', function(req,res){
+    return res.render('omar.html');
+  });
+
+
   router.get('/trains', function(req,res){
     return res.render('trains.html');
   });
@@ -36,11 +41,15 @@ module.exports = function() {
     });
 <<<<<<< HEAD
   });*/
+<<<<<<< HEAD
 
     /* Your code here */
       return router
 =======
+>>>>>>> 1842506b5d6c450766e01eca9a53eea62e3c5b69
+=======
   });                                                                           
+>>>>>>> 4b4d0fb9a95c9b2914f1c38f441b88d2eb766e44
 
   /* Your code here */
   router.get('/loginpage', function(req,res){
