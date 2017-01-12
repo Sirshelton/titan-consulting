@@ -28,10 +28,14 @@ router.get('/omar', function(req,res){
     database.executeQuery("SELECT * FROM trains", function(results) {
       res.send(results);
     });
+<<<<<<< HEAD
   });*/
 
     /* Your code here */
       return router
+=======
+  });                                                                           
+>>>>>>> 4b4d0fb9a95c9b2914f1c38f441b88d2eb766e44
 
   /* Your code here */
   router.get('/loginpage', function(req,res){
