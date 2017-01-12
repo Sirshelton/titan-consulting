@@ -18,6 +18,9 @@ router.get('/omar', function(req,res){
     return res.render('trains.html');
   });
   
+  router.get('/challengewall', function(req,res){
+    return res.render('challengewall.html');
+  });
   
   router.get('/semaj', function(req,res){
     return res.render('semaj.html');
