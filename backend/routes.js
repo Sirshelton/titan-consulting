@@ -32,5 +32,15 @@ module.exports = function() {
     return res.render('loginpage.html');
   });
   
+   router.get('/profilepage.html', function(req,res){
+    return res.render('profilepage.html');
+  });
   return router
 }();
+
+
+
+
+
+
+
