@@ -1,5 +1,13 @@
-body {
-background-color:lightblue;
- background-image: url("https://lh3.googleusercontent.com/1Lc7tfwe5aKU3yJanE7CQDfYmn7PouaLZnjE3WxXUpdKxMJHyf83SogJXh1MeSnli0Y=w300-rw");
-background-repeat: no-repeat;
+mark {
+    background-color: lightblue;
+}
+h1{
+     text-align: center
+}
+html { 
+  background: url("https://lh3.googleusercontent.com/1Lc7tfwe5aKU3yJanE7CQDfYmn7PouaLZnjE3WxXUpdKxMJHyf83SogJXh1MeSnli0Y=w300-rw") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
