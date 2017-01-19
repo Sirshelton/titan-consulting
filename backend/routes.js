@@ -47,5 +47,9 @@ router.get('/omar', function(req,res){
     /* Your code here*/ 
       return router
 
+<<<<<<< HEAD
   }();
   
+=======
+  }();
+>>>>>>> d4e1b1f976fbf4b148a0fab5762b6a1067df8076
