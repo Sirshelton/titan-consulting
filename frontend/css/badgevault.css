@@ -1,0 +1,70 @@
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    border-style: groove;
+    border-color: white;
+    border-width: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 1055px;
+    margin-left: 95px;
+}
+
+h3 {
+    border-style: groove;
+    border-color: white;
+    border-width: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 1055px;
+    margin-left: 95px;
+}
+
+p { 
+    font-size: 20px;
+}
+
+p2 {
+    
+    font-size: 20px;
+}
+
+p3 {
+    
+    font-size: 20px;
+}
+
+p4{
+    font-size:20px;
+
+}
+
+p5 {
+    font-size:20px;
+}
+
+p6 {
+    font-size:20px;
+}
+
+p7 {
+    font-size:20px;
+}
+
+p8 {
+    font-size: 20px;
+}
+
+p9 {
+    font-size: 20px;
+}
+
+span {
+    
+    font-size:25px;
+    
+}

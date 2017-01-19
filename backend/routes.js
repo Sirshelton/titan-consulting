@@ -47,26 +47,5 @@ router.get('/omar', function(req,res){
     /* Your code here*/ 
       return router
 
-<<<<<<< HEAD
   }();
-    
-=======
-  /* Your code here */
-  router.get('/loginpage', function(req,res){
-    return res.render('loginpage.html');
-  });
   
-   router.get('/profilepage.html', function(req,res){
-    return res.render('profilepage.html');
-  });
-  return router
->>>>>>> 4b4d0fb9a95c9b2914f1c38f441b88d2eb766e44
-}();
-
-
-
-
-
-
->>>>>>> 883623604b818d23097af771686779c99b465e43
-
