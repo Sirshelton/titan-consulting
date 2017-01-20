@@ -1,6 +1,7 @@
 body{
     background-color: #002031 !important; 
 }
+
 #Logo{
     width:85px;
     float: left;
@@ -29,13 +30,20 @@ body{
 p{
     font-size: 18px;
     font-family: Comic;
+    
     margin-bottom: 0;
+    color: White;
 }
 
 h1{
     margin-top:0;
     margin-bottom: 0;
-    
+    color: White !important;
+    font-family: Comic !important;
+    width: 200px;
+    position: relative;
+    left: 575px !important;
+
 }
 
 h2{
@@ -65,6 +73,12 @@ a{
     color: white !important;
 }
 
+label{
+    color: White;
+    font-family: Comic;
+    font-size: 21px;
+}
+
 /* This is for the navbar */
 
 .navbar{
@@ -81,43 +95,11 @@ a{
     
 }
 
- This is for the progress bar
-.active{
-    position:relative;
-    right: 30px;
-    
+
+
+
+
+
+#a {
+    text-align: center;
 }
-
-.progress{
-    height: 100px !important;
-    
-}
-
-#greaterthansign{
-    width: 200px;
-    position: absolute;
-    left: 120px;
-    top: 100px;
-    z-index: 1
-}
-
-This is for profile 
-td{
-    
-    color:black;
-}
-div.panel.panel{
-    position: relative;
-    max-width: 425px !important;
-    float: left;
-    
-
-}
-
-This is for the challenges
-
-#accordion.panel-group{
-    position: relative;
-    left: 10px;
-    width: 1000px;
-
