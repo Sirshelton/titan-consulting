@@ -53,3 +53,153 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+body{
+    background-color: #002031 !important; 
+}
+#Logo{
+    width:85px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left:-20px;
+    
+
+}
+
+.page-header{
+    width:450px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom:0px;
+    padding-bottom: 0px;
+    
+    
+}
+.container{
+    display: inline;
+    
+}
+
+body{
+    background-color: #002031 !important; 
+}
+#Logo{
+    width:85px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left:-20px;
+    
+
+}
+
+.page-header{
+    width:450px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom:0px;
+    padding-bottom: 0px;
+    
+    
+}
+.container{
+    display: inline;
+    
+}
+
+body{
+    background-color: #002031 !important; 
+}
+#Logo{
+    width:85px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left:-20px;
+    
+
+}
+
+.page-header{
+    width:450px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom:0px;
+    padding-bottom: 0px;
+    
+    
+}
+.container{
+    display: inline;
+    
+}
+
+body{
+    background-color: #002031 !important; 
+}
+#Logo{
+    width:85px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left:-20px;
+    
+
+}
+
+.page-header{
+    width:450px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom:0px;
+    padding-bottom: 0px;
+    
+    
+}
+.container{
+    display: inline;
+    
+}
+
+h1{
+    font-family: Comic !important;
+    color: white !important;
+}
+
+h2{
+    font-family: Comic !important;
+    color: white !important;
+}
+
+p{
+    font-family: Comic !important;
+    color: white !important;
+}
+
+a{
+    font-family: Comic !important;
+    font-size:15px;
+    color: white !important;
+}
+
+/* This is for the navbar */
+
+.navbar{
+    height: 95px;
+    background-color: black;
+}
+
+.navbar-collapse{
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    margin-top: 20px;
+    
+}

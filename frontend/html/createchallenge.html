@@ -1,24 +1,29 @@
-<!doctype html>
+<!Doctype html>
 <html>
     <head>
-        <title>Settings</title>
-     
-    <link rel="stylesheet" type="text/css" href="../css/settings.css">
-
-        
-  <meta charset="utf-8">
+      
+       <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../js/createchallenge.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/createchallenge.css">
+      
+      
+      
+      
+        <title>New Challenge</title>
+        <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
         
     </head>
     
-    
-<body>
-  
-  <!--This is for the collapsing navigation bar-->
+    <body>
+<!-- This is for the header-->
+      
 <nav class="navbar">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -51,33 +56,45 @@
     </div>
   </div>
 </nav>
-  
-  <!-- This is for the settings-->
-    <h1>Settings</h1>
-    <h2>General</h2>
-  
-    <p>
-      <a href="semaj.html"> Notifications </a>
-    </p>
+
+      
+<!-- This is to create challenges-->      
+        <h1>New Contest</h1>
+        
+   <form>
+  <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="text" type="text" class="form-control" name="msg" placeholder="To">
+  </div>
+    </form>
     
-    <label class="switch">
-      <input type="checkbox">
-      <div class="slider round"></div>
-    </label>
-    
-    
-    <p>Sounds in App</p> 
-      <label class="switch">
-        <input type="checkbox">
-        <div class="slider round"></div>
-      </label>
-    
-    
-    <p>Auto-Fill Form</p> 
-      <label class="switch">
-        <input type="checkbox">
-        <div class="slider round"></div>
-      </label>
-              
-  </body>
-</html> 
+<div class="form-group">
+  <label for="sel1">Type of Contest:</label>
+  <select class="form-control" id="sel1">
+    <option>Local</option>
+    <option>Global</option>
+    <option>Versus</option>
+  </select>
+</div>
+
+<p>From Date</p>
+
+<p>To Date</p>
+        
+        
+        
+        <form>
+    <div class="form-group">
+      <label for="comment">Description:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+  <div id="a" >
+  <button type="button" class="btn btn-default">Clear</button>
+<button type="button" class="btn btn-primary">Create</button>
+</div>
+    </body>
+</html>
+
+
+

@@ -1,0 +1,132 @@
+
+h1 {
+
+    width: 900px;
+    color: white !important;
+    font-family: Comic !important;
+}
+
+
+h2 {
+    border-style: groove;
+    border-color: white;
+    border-width: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 1055px;
+    margin-left: 95px;
+    
+    color: white !important;
+    font-family: Comic !important;
+    
+}
+
+h3 {
+    border-style: groove;
+    border-color: white;
+    border-width: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 1055px;
+    margin-left: 95px;
+    
+    
+    color: White !important;
+    font-family: Comic !important;
+}
+
+.container{
+    color: White !important;
+    font-family: Comic !important;
+    
+}
+
+p { 
+    font-size: 20px;
+}
+
+p2 {
+    
+    font-size: 20px;
+}
+
+p3 {
+    
+    font-size: 20px;
+}
+
+p4{
+    font-size:20px;
+
+}
+
+p5 {
+    font-size:20px;
+}
+
+p6 {
+    font-size:20px;
+}
+
+p7 {
+    font-size:20px;
+}
+
+p8 {
+    font-size: 20px;
+}
+
+p9 {
+    font-size: 20px;
+}
+
+span {
+    
+    font-size:25px;
+    
+}
+
+body{
+    background-color: #002031 !important; 
+}
+
+/* This is for the navbar */
+#Logo{
+    width:85px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left:-20px;
+    
+
+}
+
+.page-header{
+    width:450px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom:0px;
+    padding-bottom: 0px;
+    
+    
+}
+
+.navbar{
+    height: 95px;
+    background-color: black;
+}
+
+.navbar-collapse{
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    margin-top: 20px;
+}
+
+a{
+    font-family: Comic !important;
+    font-size:15px;
+    color: white !important;
+}
