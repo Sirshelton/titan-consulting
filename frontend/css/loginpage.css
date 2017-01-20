@@ -1,4 +1,11 @@
+*{
+    font-size: 18px;
+    font-family: Comic;
+    color: White;
+    
+}
 body{
+    background-color: #002031 !important;
     background-size: 1500px, 900px;
     display: inline-block;
     position: relative;
