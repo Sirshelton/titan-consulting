@@ -2,6 +2,8 @@
 
 var router = require('express').Router();
 var database = require('./c37_modules/database');
+var multer  = require('multer');
+var upload = multer({ dest: 'frontend/images/' });
 
 module.exports = function() {
 
@@ -35,6 +37,16 @@ router.get('/omar', function(req,res){
     return res.render('loginpage.html');
   });
   
+  router.get('/loading2', function(req,res){
+    return res.render('loading2.html');
+  });
+  
+  router.post('/image/upload', upload.single('image'), function (req, res){
+    var filename = req.file.filename
+    console.log("Hello Omar!");
+    console.log('File was uploaded: ' + filename);
+    return res.send("<html><img src='/images/" + filename + "'/></html>")
+  }); 
   /*
 
   router.get('/trains/data', function(req,res){
