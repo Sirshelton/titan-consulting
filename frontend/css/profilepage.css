@@ -2,7 +2,7 @@ body{
     background-color: #002031 !important; 
 }
 #Logo{
-    width:85px;
+    width:200px;
     float: left;
     position: relative;
     bottom: 30px;
@@ -42,7 +42,7 @@ h2{
     font-size: 42px !important;
     position: absolute;
     left: 20px;
-    top: 155px;
+    top: 10px;
     z-index: 1;
     color: white !important;
     font-family: Comic !important;
@@ -53,7 +53,7 @@ h3{
     width: 250px;
     position: absolute;
     left:20px;
-    top: 155px !important;
+    top: 10px !important;
     z-index: 1;
     color: White !important;
     font-family: Comic !important;
@@ -61,27 +61,28 @@ h3{
 
 a{
     font-family: Comic !important;
-    font-size:15px;
+    font-size:18px;
     color: white !important;
 }
 
-/* This is for the navbar */
+
+/* This is for the navbar.*/
 
 .navbar{
-    height: 95px;
-    background-color: black;
-}
-
-.navbar-collapse{
-    padding-top: 20px;
-}
-
-.navbar-brand{
-    margin-top: 20px;
+    background-color: black !important;
     
 }
 
+.navbar-collapse{
+    padding-top: 50px;
+}
+
+
+<<<<<<< HEAD
+/* This is for the progress bar*/
+=======
  This is for the progress bar
+>>>>>>> 4bb162ed8eded536962d6b45f9a1df5621d304ff
 .active{
     position:relative;
     right: 30px;
@@ -96,28 +97,46 @@ a{
 #greaterthansign{
     width: 200px;
     position: absolute;
-    left: 120px;
-    top: 100px;
+    left: 237px;
+    top: -50px;  
     z-index: 1
 }
 
-This is for profile 
+#profilename{
+    height: 100px;
+    background-color: #002031;
+    padding: 0px;
+    
+}
+
+
+
+/*This is for profile*/
+
 td{
-    
-    color:black;
-}
-div.panel.panel{
-    position: relative;
-    max-width: 425px !important;
-    float: left;
-    
-
+    font-family: Comic;
+    color: black;
 }
 
-This is for the challenges
 
+<<<<<<< HEAD
+/*This is for the challenges*/
+
+.challengepanelhead{
+    color: Black !important;
+}
+
+
+/* This is for the Badges*/
+#badges{
+    font-size: 50px;
+    width: 40px !important;
+    
+}
+=======
 #accordion.panel-group{
     position: relative;
     left: 10px;
     width: 1000px;
 
+>>>>>>> 4bb162ed8eded536962d6b45f9a1df5621d304ff
