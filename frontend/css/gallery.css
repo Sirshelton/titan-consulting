@@ -1,7 +1,13 @@
-/* This is for the page styling*/
 body{
     background-color: #002031 !important; 
 }
+.img{
+    padding: 12px;
+    padding-left: 0px;
+    display: inline;
+    height: 12px;
+} 
+
 #Logo{
     width:85px;
     float: left;
@@ -27,25 +33,28 @@ body{
     
 }
 
-*{
-    font-family: Comic !important;
-}
-
 p{
     font-size: 18px;
-    font-family: Courier;
-    font-weight: bold;
+    font-family: Comic;
+    
     margin-bottom: 0;
+    color: White;
 }
 
 h1{
     margin-top:0;
     margin-bottom: 0;
+    color: White !important;
     font-family: Comic !important;
-    width: 300px;
+    width: 200px;
     position: relative;
+<<<<<<< HEAD:frontend/css/challengewall.css
     color: White !important;
     
+=======
+    left: 575px !important;
+
+>>>>>>> d62140529f6819855d4373d9863047bb7d86c3d4:frontend/css/gallery.css
 }
 
 h2{
@@ -75,6 +84,7 @@ a{
     color: white !important;
 }
 
+<<<<<<< HEAD:frontend/css/challengewall.css
 .table{
     font-family: Comic;
     color: white;    
@@ -83,14 +93,19 @@ a{
 thead{
     font-size:21px;
     text-align: center;
+=======
+label{
+>>>>>>> d62140529f6819855d4373d9863047bb7d86c3d4:frontend/css/gallery.css
     color: White;
+    font-family: Comic;
+    font-size: 21px;
 }
 
 /* This is for the navbar */
 
 .navbar{
     height: 95px;
-    background-color: Black;
+    background-color: black;
 }
 
 .navbar-collapse{
@@ -102,7 +117,17 @@ thead{
     
 }
 
+<<<<<<< HEAD:frontend/css/gallery.css
+
+
+
+
+
+#a {
+    text-align: center;
+=======
 #a {
     postion center;
 }
+>>>>>>> 50c2dbd18486ae6e3a53916ac7a8652bec324149:frontend/css/challengewall.css
 }
