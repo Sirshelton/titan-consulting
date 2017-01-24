@@ -78,11 +78,7 @@ a{
 }
 
 
-<<<<<<< HEAD
 /* This is for the progress bar*/
-=======
- This is for the progress bar
->>>>>>> 4bb162ed8eded536962d6b45f9a1df5621d304ff
 .active{
     position:relative;
     right: 30px;
@@ -119,7 +115,6 @@ td{
 }
 
 
-<<<<<<< HEAD
 /*This is for the challenges*/
 
 .challengepanelhead{
@@ -133,10 +128,3 @@ td{
     width: 40px !important;
     
 }
-=======
-#accordion.panel-group{
-    position: relative;
-    left: 10px;
-    width: 1000px;
-
->>>>>>> 4bb162ed8eded536962d6b45f9a1df5621d304ff
