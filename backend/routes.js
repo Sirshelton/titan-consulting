@@ -2,6 +2,8 @@
 
 var router = require('express').Router();
 var database = require('./c37_modules/database');
+var multer  = require('multer');
+var upload = multer({ dest: 'frontend/images/' });
 
 module.exports = function() {
 
@@ -22,18 +24,39 @@ router.get('/omar', function(req,res){
     return res.render('challengewall.html');
   });
   
-  router.get('/c2.html', function(req,res){
-    return res.render('C2.html');
+  router.get('/createchallenge.html', function(req,res){
+    return res.render('createchallenge.html');
   });
-  
   
   router.get('/semaj', function(req,res){
     return res.render('semaj.html');
   });
   
+  /*router.get('/loginpage', function(req,res){
+    return res.render('loginpage.html');
+  });
+  */
+  
   router.get('/loginpage', function(req,res){
     return res.render('loginpage.html');
   });
+  
+  router.get('/loading2', function(req,res){
+    return res.render('loading2.html');
+  });
+  
+  router.post('/image/upload', upload.single('image'), function (req, res){
+    var filename = req.file.filename
+    console.log("Hello Omar!");
+    console.log('File was uploaded: ' + filename);
+    return res.send("<html><img src='/images/" + filename + "'/></html>")
+  }); 
+  });
+  /*
+  router.get('/profilepage.html', function(req,res){
+    return res.render('profilepage.html');
+  });
+  */
   
   /*
 
@@ -44,12 +67,17 @@ router.get('/omar', function(req,res){
 
   });*/
 
-    /* Your code here*/ 
-      return router
-
-<<<<<<< HEAD
-  }();
+  /* Your code here */
   
-=======
-  }();
->>>>>>> d4e1b1f976fbf4b148a0fab5762b6a1067df8076
+ 
+ 
+  return router
+  
+}();
+
+
+
+
+
+
+
