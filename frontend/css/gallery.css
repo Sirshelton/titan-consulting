@@ -101,6 +101,7 @@ label{
     
 }
 
+<<<<<<< HEAD:frontend/css/gallery.css
 
 
 
@@ -108,4 +109,9 @@ label{
 
 #a {
     text-align: center;
+=======
+#a {
+    postion center;
+}
+>>>>>>> 50c2dbd18486ae6e3a53916ac7a8652bec324149:frontend/css/challengewall.css
 }

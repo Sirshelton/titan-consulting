@@ -2,15 +2,15 @@ body {
     background-color: #002031 !important;
     color: White !important;
     font-family: Comic !important;
-    position: absolute;
     top: 5px;
     width:1366px;
 }
 
-h1 {
-    position: relative;
-    left:150px;
-    font-size: 40px;
+h1 { 
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 190px;
     
 }
 
