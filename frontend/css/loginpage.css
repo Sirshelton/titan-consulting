@@ -1,26 +1,16 @@
-*{
-    font-size: 18px;
-    font-family: Comic;
-    color: White;
-    
-}
 body{
     background-color: #002031 !important;
-    background-size: 1500px, 900px;
-    display: inline-block;
-    position: relative;
-    left: 40%;
-    
+     font-size: 18px;
+    font-family: Comic;
+    color: White;
 }
 
 #Logo{
-    width:300px;
-    
+    width: 600px;
 }
 
 .username{
     width: 300px;
-    
 }
 
 .pwd{

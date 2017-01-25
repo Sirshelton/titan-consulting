@@ -48,13 +48,8 @@ h1{
     font-family: Comic !important;
     width: 200px;
     position: relative;
-<<<<<<< HEAD:frontend/css/challengewall.css
     color: White !important;
     
-=======
-    left: 575px !important;
-
->>>>>>> d62140529f6819855d4373d9863047bb7d86c3d4:frontend/css/gallery.css
 }
 
 h2{
@@ -84,7 +79,6 @@ a{
     color: white !important;
 }
 
-<<<<<<< HEAD:frontend/css/challengewall.css
 .table{
     font-family: Comic;
     color: white;    
@@ -93,9 +87,6 @@ a{
 thead{
     font-size:21px;
     text-align: center;
-=======
-label{
->>>>>>> d62140529f6819855d4373d9863047bb7d86c3d4:frontend/css/gallery.css
     color: White;
     font-family: Comic;
     font-size: 21px;
@@ -117,7 +108,6 @@ label{
     
 }
 
-<<<<<<< HEAD:frontend/css/gallery.css
 
 
 
@@ -125,6 +115,10 @@ label{
 
 #a {
     text-align: center;
+#a {
+    postion center;
+}
+}t-align: center;
 =======
 #a {
     postion center;
