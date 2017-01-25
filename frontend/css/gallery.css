@@ -5,7 +5,8 @@ body{
     padding: 12px;
     padding-left: 0px;
     display: inline;
-    height: 12px;
+    height: 1px;
+    width: 1px;
 } 
 
 #Logo{
@@ -40,21 +41,18 @@ p{
     margin-bottom: 0;
     color: White;
 }
+p2{
+    color:white;
+    font-size:20px; 
+}
 
 h1{
     margin-top:0;
     margin-bottom: 0;
     color: White !important;
     font-family: Comic !important;
-    width: 200px;
-    position: relative;
-<<<<<<< HEAD:frontend/css/challengewall.css
-    color: White !important;
+    position: center;
     
-=======
-    left: 575px !important;
-
->>>>>>> d62140529f6819855d4373d9863047bb7d86c3d4:frontend/css/gallery.css
 }
 
 h2{
