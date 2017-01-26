@@ -51,7 +51,6 @@ router.get('/omar', function(req,res){
     console.log('File was uploaded: ' + filename);
     return res.send("<html><img src='/images/" + filename + "'/></html>")
   }); 
-  });
   /*
   router.get('/profilepage.html', function(req,res){
     return res.render('profilepage.html');
