@@ -1,7 +1,6 @@
 
 h1 {
-
-    width: 900px;
+    text-align: center;
     color: white !important;
     font-family: Comic !important;
 }
@@ -11,10 +10,7 @@ h2 {
     border-style: groove;
     border-color: white;
     border-width: 15px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 1150px;
-    margin-left: 150px;
+    text-align: center;
     color: white !important;
     font-family: Comic !important;
     
@@ -24,10 +20,7 @@ h3 {
     border-style: groove;
     border-color: white;
     border-width: 15px;
-    margin-top: 100px;
-    margin-bottom: 200px;
-    margin-right: 720px;
-    margin-left: 50px;
+    text-align: center;
     color: White !important;
     font-family: Comic !important;
 }
@@ -84,12 +77,99 @@ span {
     
 }
 
-.specials {
+p12 {
+    font-size: 20px;
     
-    margin-top: -540px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 400px;
+}
+
+p13 {
+    font-size: 20px;
+    
+}
+
+p14 {
+    font-size: 20px;
+    
+}
+
+p15 {
+    font-size: 20px;
+}
+
+p16 {
+    font-size: 20px;
+    
+}
+
+
+p17 {
+    font-size: 20px;
+    
+}
+
+p18 {
+    font-size: 20px;
+    
+}
+
+p19 {
+    font-size: 20px;
+    
+}
+
+p20 {
+    font-size: 20px;
+    
+}
+
+p21 {
+    font-size: 20px;
+    
+}
+
+p22 {
+    font-size: 20px;
+    
+}
+
+p23 {
+    font-size: 20px;
+    
+}
+
+p24 {
+    font-size: 20px;
+    
+}
+
+p25 {
+    font-size: 20px;
+    
+}
+
+p26 {
+    font-size: 20px;
+    
+}
+
+p27 {
+    font-size: 20px;
+    
+}
+
+p28 {
+    font-size: 20px;
+    
+}
+
+p29 {
+    font-size: 20px;
+    
+}
+
+
+.specials {
+     margin: 150px 100px 600px;
 }
 
 body{
@@ -98,7 +178,7 @@ body{
 
 /* This is for the navbar */
 #Logo{
-    width:85px;
+    width:200px;
     float: left;
     position: relative;
     bottom: 30px;
@@ -119,16 +199,12 @@ body{
 }
 
 .navbar{
-    height: 95px;
-    background-color: black;
+    background-color: black !important;
 }
 
 .navbar-collapse{
-    padding-top: 20px;
-}
+    padding-top: 50px;
 
-.navbar-brand{
-    margin-top: 20px;
 }
 
 a{

@@ -10,7 +10,7 @@ body{
 } 
 
 #Logo{
-    width:85px;
+    width:200px;
     float: left;
     position: relative;
     bottom: 30px;
@@ -100,17 +100,12 @@ thead{
 /* This is for the navbar */
 
 .navbar{
-    height: 95px;
-    background-color: black;
+    background-color: black !important;
 }
 
 .navbar-collapse{
-    padding-top: 20px;
-}
+    padding-top: 50px;
 
-.navbar-brand{
-    margin-top: 20px;
-    
 }
 
 
@@ -120,8 +115,6 @@ thead{
 
 #a {
     text-align: center;
-#a {
-    postion center;
-}
-}t-align: center;
+    position: center;
+
 }

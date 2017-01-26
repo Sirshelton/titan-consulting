@@ -1,15 +1,10 @@
 body{
     background-color: #002031 !important; 
-}
-.img{
-    padding: 12px;
-    padding-left: 0px;
-    display: inline;
-    height: 12px;
+
 } 
 
 #Logo{
-    width:85px;
+    width:200px;
     float: left;
     position: relative;
     bottom: 30px;
@@ -70,7 +65,7 @@ h3{
 
 a{
     font-family: Comic !important;
-    font-size:15px;
+    font-size:18px;
     color: white !important;
 }
 
@@ -90,18 +85,14 @@ thead{
 /* This is for the navbar */
 
 .navbar{
-    height: 95px;
-    background-color: black;
+    background-color: black !important;
 }
 
 .navbar-collapse{
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
-.navbar-brand{
-    margin-top: 20px;
-    
-}
+
 
 
 #a {
