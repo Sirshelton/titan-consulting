@@ -1,5 +1,4 @@
-
-      * {
+* {
   box-sizing: border-box;
   
 }
@@ -153,6 +152,6 @@ transform: scale(1);
 }
   
   #Logo{
-    width: 630px;
+    width: 1200px;
   }
   
