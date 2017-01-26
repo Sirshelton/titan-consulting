@@ -1,6 +1,8 @@
 body{
     background-color: #002031 !important; 
-}
+
+} 
+
 #Logo{
     width:200px;
     float: left;
@@ -29,20 +31,22 @@ body{
 p{
     font-size: 18px;
     font-family: Comic;
+    
     margin-bottom: 0;
+    color: White;
 }
 
 h1{
-    margin-top:0;
-    margin-bottom: 0;
-    
+    color: White !important;
+    font-family: Comic !important;
+    position: relative;
+    text-align: center;
 }
-
 h2{
     font-size: 42px !important;
     position: absolute;
     left: 20px;
-    top: 10px;
+    top: 155px;
     z-index: 1;
     color: white !important;
     font-family: Comic !important;
@@ -53,7 +57,7 @@ h3{
     width: 250px;
     position: absolute;
     left:20px;
-    top: 10px !important;
+    top: 155px !important;
     z-index: 1;
     color: White !important;
     font-family: Comic !important;
@@ -65,12 +69,23 @@ a{
     color: white !important;
 }
 
+    .table{
+    font-family: Comic;
+    color: white;    
+}
 
-/* This is for the navbar.*/
+thead{
+    font-size:21px;
+    text-align: center;
+    color: White;
+    font-family: Comic;
+    font-size: 21px;
+}
+
+/* This is for the navbar */
 
 .navbar{
     background-color: black !important;
-    
 }
 
 .navbar-collapse{
@@ -78,52 +93,9 @@ a{
 }
 
 
-/* This is for the progress bar*/
-.active{
-    position:relative;
-    right: 30px;
-    
-}
-
-.progress{
-    height: 100px !important;
-    
-}
-
-#greaterthansign{
-    width: 200px;
-    position: absolute;
-    top: -50px;  
-    z-index: 1
-}
-
-#profilename{
-    height: 100px;
-    background-color: #002031;
-    padding: 0px;
-    
-}
 
 
-
-/*This is for profile*/
-
-td{
-    font-family: Comic;
-    color: black;
-}
-
-
-/*This is for the challenges*/
-
-.challengepanelhead{
-    color: Black !important;
-}
-
-
-/* This is for the Badges*/
-#badges{
-    font-size: 50px;
-    width: 40px !important;
-    
+#a {
+    text-align: center;
+    position: center;
 }

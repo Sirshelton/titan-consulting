@@ -1,5 +1,4 @@
-
-      * {
+* {
   box-sizing: border-box;
   
 }
@@ -11,7 +10,7 @@ body {
 }
 
 p{
-  font-size: 150px;
+  font-size: 100px;
   text-align:center;
   font-weight: bold;
   color: white;
@@ -150,3 +149,9 @@ transform: scale(1);
     transform: scale(1);
      background-color: #46b9ff;
   }
+}
+  
+  #Logo{
+    width: 1200px;
+  }
+  
