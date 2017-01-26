@@ -5,8 +5,7 @@ body{
     padding: 12px;
     padding-left: 0px;
     display: inline;
-    height: 1px;
-    width: 1px;
+    height: 12px;
 } 
 
 #Logo{
@@ -41,22 +40,13 @@ p{
     margin-bottom: 0;
     color: White;
 }
-p2{
-    color:white;
-    font-size:20px; 
-}
 
 h1{
-    margin-top:0;
-    margin-bottom: 0;
     color: White !important;
     font-family: Comic !important;
-    width: 200px;
     position: relative;
-    color: White !important;
-    
+    text-align: center;
 }
-
 h2{
     font-size: 42px !important;
     position: absolute;
@@ -84,7 +74,7 @@ a{
     color: white !important;
 }
 
-.table{
+    .table{
     font-family: Comic;
     color: white;    
 }
@@ -114,14 +104,7 @@ thead{
 }
 
 
-
-
-
-
 #a {
     text-align: center;
-#a {
-    postion center;
-}
-}t-align: center;
+    position: center;
 }
