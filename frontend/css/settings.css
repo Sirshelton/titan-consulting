@@ -205,3 +205,8 @@ input:checked + .slider:before {
  border-radius: 50%;
 }
 
+
+.container{
+    position: relative;
+    left: 325px;
+}
